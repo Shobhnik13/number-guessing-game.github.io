@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@800&family=Hubballi&family=Open+Sans:wght@700&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+<header class="top">
+    <button class="butt">Play Again</button>
+<p class="qm">?</p>
+<p class="range"> Choose a number between 1 To 100</p>
+</header>
+<div>
+    <p class="guess">
+        GUESS THE NUMBER ?
+    </p>
+</div>
+<!-- for status+number check btn  -->
+<div class="imp">
+    <!-- for entering the number  -->
+<div class="enter">
+    <input type="number" class="inputnum" placeholder="Enter your number here">
+<button class="checkbtn">CHECK!</button>
+</div>
+<!-- for status -->
+<div class="status">
+    <p class="start">Start Game....</p>
+    <p class="attempt">ATTEMPT LEFT:
+        <span class="initialscore">20</span>
+    </p>
+<p class="score">🏅HIGHSCORE:
+    <span class="score1">0</span>
+</p>
+</div>
+</div>
+    </section>
+
+</body>
+<script src="game.js"></script>
+</html>
